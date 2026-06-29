@@ -401,7 +401,7 @@ and [host/loop.py](host/loop.py) are the whole story.
 
 ## The series
 
-This is one of eight standalone, hands-on deep dives into building with LLM APIs.
+This is one of thirteen standalone, hands-on deep dives into building with LLM APIs — eight core, plus five bonus dives.
 Each one stands on its own — its own setup, examples, and capstone — and they all
 share the same house style: provider-agnostic where it makes sense, built from
 scratch (no frameworks), offline-first examples, and a real capstone. Do them in
@@ -415,6 +415,14 @@ any order; this sequence builds naturally:
 6. [Agents](https://github.com/Ailuue/agents-deep-dive) — give a model tools and a loop so it can act
 7. [Prompt Injection & Guardrails](https://github.com/Ailuue/prompt-injection-deep-dive) — attack and defend all of the above
 8. [Production](https://github.com/Ailuue/ai-in-production-deep-dive) — operate one app end to end
+
+**Bonus dives** — standalone, slotting in where they're most useful:
+
+- [Context Engineering](https://github.com/Ailuue/context-engineering-deep-dive) — manage what's in the window: memory, compaction, assembly
+- [Multimodal](https://github.com/Ailuue/multimodal-deep-dive) — images & audio, not just text
+- [Fine-tuning](https://github.com/Ailuue/fine-tuning-deep-dive) — teach a model new behavior by example
+- [MCP](https://github.com/Ailuue/mcp-deep-dive) — serve tools, data & prompts to any LLM over a standard protocol
+- [Local Models](https://github.com/Ailuue/local-models-deep-dive) — run open-weight models on your own machine
 
 **MCP is a bonus dive in the series.** It slots most naturally right after
 [Agents](https://github.com/Ailuue/agents-deep-dive) (#6) — Section 8 here is that
