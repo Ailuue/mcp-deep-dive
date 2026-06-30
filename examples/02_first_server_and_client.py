@@ -26,8 +26,8 @@ import asyncio
 import os
 import sys
 
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
+from mcp import ClientSession, StdioServerParameters  # type: ignore[import-untyped]
+from mcp.client.stdio import stdio_client  # type: ignore[import-untyped]
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
