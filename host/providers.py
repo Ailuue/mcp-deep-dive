@@ -140,7 +140,7 @@ def run_turn(system: str, history: list, tool_schema: list) -> Turn:
     if p == "openai":
         messages = [{"role": "system", "content": system}, *history]
         resp = _openai_client().chat.completions.create(
-            model=_OPENAI_CHAT, messages=messages, tools=tool_schema or None
+            model=_OPENAI_CHAT, messages=messages, tools=tool_schema or None  # type: ignore[arg-type]
         )
         msg = resp.choices[0].message
         calls = []
