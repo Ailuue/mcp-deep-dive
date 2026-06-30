@@ -38,7 +38,7 @@ section).
 import ast
 import operator
 
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP  # type: ignore[import-untyped]
 
 # host/port can be set here; defaults are 127.0.0.1:8000, path /mcp.
 mcp = FastMCP("calculator-http")
